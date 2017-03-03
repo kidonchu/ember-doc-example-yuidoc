@@ -1,9 +1,9 @@
 import Ember from 'ember';
 
 /**
- * This component implements list-filter
+ * This component implements listing-table
  *
- * @class ListFilter
+ * @class ListingTable
  * @namespace Component
  */
 export default Ember.Component.extend({

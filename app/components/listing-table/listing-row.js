@@ -3,8 +3,8 @@ import Ember from 'ember';
 /**
  * This component implements list-filter
  *
- * @class ListFilter
- * @namespace Component
+ * @class ListingRow
+ * @namespace Component.ListingTable
  */
 export default Ember.Component.extend({
 	classNames: ['list-filter'],
