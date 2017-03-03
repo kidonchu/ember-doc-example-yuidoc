@@ -1,6 +1,7 @@
 {
   "name": "super-rentals",
   "description": "Small description for super-rentals goes here",
+  "url": "https://github.com/kidonchu/ember-doc-example-yuidoc",
   "version": "0.1.0",
   "options": {
     "paths": [
