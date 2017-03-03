@@ -1,0 +1,807 @@
+{
+    "project": {
+        "name": "super-rentals",
+        "description": "Small description for super-rentals goes here",
+        "version": "master",
+        "url": "https://github.com/kidonchu/ember-doc-example-yuidoc"
+    },
+    "files": {
+        "app/adapters/application.js": {
+            "name": "app/adapters/application.js",
+            "modules": {},
+            "classes": {
+                "Adapter.Application": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Adapter": 1
+            }
+        },
+        "app/components/listing-table/listing-row.js": {
+            "name": "app/components/listing-table/listing-row.js",
+            "modules": {},
+            "classes": {
+                "Component.ListingTable.ListingRow": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Component.ListingTable": 1
+            }
+        },
+        "app/components/list-filter.js": {
+            "name": "app/components/list-filter.js",
+            "modules": {},
+            "classes": {
+                "Component.ListFilter": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Component": 1
+            }
+        },
+        "app/components/listing-table.js": {
+            "name": "app/components/listing-table.js",
+            "modules": {},
+            "classes": {
+                "Component.ListingTable": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Component": 1
+            }
+        },
+        "app/components/location-map.js": {
+            "name": "app/components/location-map.js",
+            "modules": {},
+            "classes": {
+                "Component.LocationMap": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Component": 1
+            }
+        },
+        "app/components/rental-listing.js": {
+            "name": "app/components/rental-listing.js",
+            "modules": {},
+            "classes": {
+                "Component.RentalListing": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Component": 1
+            }
+        },
+        "app/controllers/rentals/index.js": {
+            "name": "app/controllers/rentals/index.js",
+            "modules": {},
+            "classes": {
+                "Controller.Rentals.Index": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Controller.Rentals": 1
+            }
+        },
+        "app/controllers/rentals.js": {
+            "name": "app/controllers/rentals.js",
+            "modules": {},
+            "classes": {
+                "Controller.Rentals": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Controller": 1
+            }
+        },
+        "app/helpers/rental-property-type.js": {
+            "name": "app/helpers/rental-property-type.js",
+            "modules": {},
+            "classes": {
+                "Helper.RentalPropertyType": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Helper": 1
+            }
+        },
+        "app/models/rental.js": {
+            "name": "app/models/rental.js",
+            "modules": {},
+            "classes": {
+                "Model.Rental": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Model": 1
+            }
+        },
+        "app/routes/rentals/index.js": {
+            "name": "app/routes/rentals/index.js",
+            "modules": {},
+            "classes": {
+                "Route.Rentals.Index": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route.Rentals": 1
+            }
+        },
+        "app/routes/rentals/show.js": {
+            "name": "app/routes/rentals/show.js",
+            "modules": {},
+            "classes": {
+                "Route.Rentals.Show": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route.Rentals": 1
+            }
+        },
+        "app/routes/about.js": {
+            "name": "app/routes/about.js",
+            "modules": {},
+            "classes": {
+                "Route.About": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route": 1
+            }
+        },
+        "app/routes/contact.js": {
+            "name": "app/routes/contact.js",
+            "modules": {},
+            "classes": {
+                "Route.Contact": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route": 1
+            }
+        },
+        "app/routes/index.js": {
+            "name": "app/routes/index.js",
+            "modules": {},
+            "classes": {
+                "Route.Index": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route": 1
+            }
+        },
+        "app/routes/rentals.js": {
+            "name": "app/routes/rentals.js",
+            "modules": {},
+            "classes": {
+                "Route.Rentals": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Route": 1
+            }
+        },
+        "app/services/maps.js": {
+            "name": "app/services/maps.js",
+            "modules": {},
+            "classes": {
+                "Service.Maps": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Service": 1
+            }
+        },
+        "app/utils/google-maps.js": {
+            "name": "app/utils/google-maps.js",
+            "modules": {},
+            "classes": {
+                "Util.GoogleMaps": 1
+            },
+            "fors": {},
+            "namespaces": {
+                "Util": 1
+            }
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Adapter.Application": {
+            "name": "Adapter.Application",
+            "shortname": "Adapter.Application",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Adapter",
+            "file": "app/adapters/application.js",
+            "line": 3,
+            "description": "Application Adapter",
+            "extends": "DS.JSONAPIAdapter"
+        },
+        "Component.ListingTable.ListingRow": {
+            "name": "Component.ListingTable.ListingRow",
+            "shortname": "Component.ListingTable.ListingRow",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Component.ListingTable",
+            "file": "app/components/listing-table/listing-row.js",
+            "line": 3,
+            "description": "This component implements list-filter"
+        },
+        "Component.ListFilter": {
+            "name": "Component.ListFilter",
+            "shortname": "Component.ListFilter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Component",
+            "file": "app/components/list-filter.js",
+            "line": 3,
+            "description": "This component implements list-filter"
+        },
+        "Component.ListingTable": {
+            "name": "Component.ListingTable",
+            "shortname": "Component.ListingTable",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Component",
+            "file": "app/components/listing-table.js",
+            "line": 3,
+            "description": "This component implements Listing table\nAnother example of doc block"
+        },
+        "Component.LocationMap": {
+            "name": "Component.LocationMap",
+            "shortname": "Component.LocationMap",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Component",
+            "file": "app/components/location-map.js",
+            "line": 3,
+            "description": "This component implements location-map"
+        },
+        "Component.RentalListing": {
+            "name": "Component.RentalListing",
+            "shortname": "Component.RentalListing",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Component",
+            "file": "app/components/rental-listing.js",
+            "line": 3,
+            "description": "This component implements rental listing"
+        },
+        "Controller.Rentals.Index": {
+            "name": "Controller.Rentals.Index",
+            "shortname": "Controller.Rentals.Index",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Controller.Rentals",
+            "file": "app/controllers/rentals/index.js",
+            "line": 3
+        },
+        "Controller.Rentals": {
+            "name": "Controller.Rentals",
+            "shortname": "Controller.Rentals",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Controller",
+            "file": "app/controllers/rentals.js",
+            "line": 3
+        },
+        "Helper.RentalPropertyType": {
+            "name": "Helper.RentalPropertyType",
+            "shortname": "Helper.RentalPropertyType",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Helper",
+            "file": "app/helpers/rental-property-type.js",
+            "line": 3
+        },
+        "Model.Rental": {
+            "name": "Model.Rental",
+            "shortname": "Model.Rental",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Model",
+            "file": "app/models/rental.js",
+            "line": 3
+        },
+        "Route.Rentals.Index": {
+            "name": "Route.Rentals.Index",
+            "shortname": "Route.Rentals.Index",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route.Rentals",
+            "file": "app/routes/rentals/index.js",
+            "line": 3
+        },
+        "Route.Rentals.Show": {
+            "name": "Route.Rentals.Show",
+            "shortname": "Route.Rentals.Show",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route.Rentals",
+            "file": "app/routes/rentals/show.js",
+            "line": 3
+        },
+        "Route.About": {
+            "name": "Route.About",
+            "shortname": "Route.About",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route",
+            "file": "app/routes/about.js",
+            "line": 3
+        },
+        "Route.Contact": {
+            "name": "Route.Contact",
+            "shortname": "Route.Contact",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route",
+            "file": "app/routes/contact.js",
+            "line": 3
+        },
+        "Route.Index": {
+            "name": "Route.Index",
+            "shortname": "Route.Index",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route",
+            "file": "app/routes/index.js",
+            "line": 3
+        },
+        "Route.Rentals": {
+            "name": "Route.Rentals",
+            "shortname": "Route.Rentals",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Route",
+            "file": "app/routes/rentals.js",
+            "line": 3
+        },
+        "Service.Maps": {
+            "name": "Service.Maps",
+            "shortname": "Service.Maps",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "namespace": "Service",
+            "file": "app/services/maps.js",
+            "line": 4,
+            "uses": [
+                "Util.GoogleMaps"
+            ]
+        },
+        "Util.GoogleMaps": {
+            "name": "Util.GoogleMaps",
+            "shortname": "Util.GoogleMaps",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [
+                "Service.Maps"
+            ],
+            "namespace": "Util",
+            "file": "app/utils/google-maps.js",
+            "line": 5
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "app/components/listing-table/listing-row.js",
+            "line": 13,
+            "description": "Initializes the listings",
+            "itemtype": "method",
+            "name": "init",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListingTable.ListingRow",
+            "namespace": "Component.ListingTable"
+        },
+        {
+            "file": "app/components/listing-table/listing-row.js",
+            "line": 25,
+            "description": "Runs filter on listings",
+            "itemtype": "method",
+            "name": "handleFilterEntry",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListingTable.ListingRow",
+            "namespace": "Component.ListingTable"
+        },
+        {
+            "file": "app/components/list-filter.js",
+            "line": 13,
+            "description": "Initializes the listings",
+            "itemtype": "method",
+            "name": "init",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListFilter",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/list-filter.js",
+            "line": 25,
+            "description": "Runs filter on listings",
+            "itemtype": "method",
+            "name": "handleFilterEntry",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListFilter",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/listing-table.js",
+            "line": 14,
+            "description": "Initializes the listings",
+            "itemtype": "method",
+            "name": "init",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListingTable",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/listing-table.js",
+            "line": 26,
+            "description": "Runs filter on listings",
+            "itemtype": "method",
+            "name": "handleFilterEntry",
+            "return": {
+                "description": "",
+                "type": "Undefined"
+            },
+            "class": "Component.ListingTable",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/location-map.js",
+            "line": 12,
+            "description": "Fetches map from `maps` service and appends it\nto the map container",
+            "itemtype": "method",
+            "name": "didInsertElement",
+            "class": "Component.LocationMap",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/rental-listing.js",
+            "line": 10,
+            "description": "Flag to indicate wide mode. If set to true, the component\nwill expand the image to its full size",
+            "itemtype": "property",
+            "name": "isWide",
+            "type": "Boolean",
+            "default": "false",
+            "class": "Component.RentalListing",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/components/rental-listing.js",
+            "line": 21,
+            "description": "Toggles image size",
+            "itemtype": "method",
+            "name": "toggleImageSize",
+            "class": "Component.RentalListing",
+            "namespace": "Component"
+        },
+        {
+            "file": "app/controllers/rentals.js",
+            "line": 10,
+            "description": "Filters listings by city",
+            "itemtype": "method",
+            "name": "filterByCity",
+            "params": [
+                {
+                    "name": "param",
+                    "description": "List of options to search with",
+                    "type": "Object",
+                    "props": [
+                        {
+                            "name": "city",
+                            "description": "City to search for",
+                            "type": "String"
+                        }
+                    ]
+                }
+            ],
+            "class": "Controller.Rentals",
+            "namespace": "Controller"
+        },
+        {
+            "file": "app/helpers/rental-property-type.js",
+            "line": 8,
+            "description": "List of property types that are considered \"Community\"",
+            "itemtype": "property",
+            "name": "communityPropertyTypes",
+            "final": 1,
+            "type": "String[]",
+            "class": "Helper.RentalPropertyType",
+            "namespace": "Helper"
+        },
+        {
+            "file": "app/helpers/rental-property-type.js",
+            "line": 21,
+            "description": "Returns rental's property type\n\nIf `type` is one of\n{{#crossLink \"Helper.RentalPropertyType/communityPropertyTypes:property\"}}\n{{/crossLink}}, it returns \"Community\". Otherwise, returns \"Standalone\".",
+            "itemtype": "method",
+            "name": "rentalPropertyType",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "Type of rental property",
+                    "type": "String",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "Type of rental property",
+                "type": "String"
+            },
+            "class": "Helper.RentalPropertyType",
+            "namespace": "Helper"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 8,
+            "itemtype": "attribute",
+            "name": "title",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 13,
+            "itemtype": "attribute",
+            "name": "owner",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 18,
+            "itemtype": "attribute",
+            "name": "city",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 23,
+            "itemtype": "attribute",
+            "name": "type",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 28,
+            "itemtype": "attribute",
+            "name": "image",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 33,
+            "itemtype": "attribute",
+            "name": "bedrooms",
+            "type": "Integer",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/models/rental.js",
+            "line": 38,
+            "itemtype": "attribute",
+            "name": "description",
+            "type": "String",
+            "class": "Model.Rental",
+            "namespace": "Model"
+        },
+        {
+            "file": "app/routes/rentals/index.js",
+            "line": 8,
+            "description": "Returns the {{#crossLink \"Model.Rental\"}}{{/crossLink}}s to show",
+            "itemtype": "method",
+            "name": "model",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "All {{#crossLink \"Model.Rental\"}}{{/crossLink}}s",
+                "type": "Array"
+            },
+            "class": "Route.Rentals.Index",
+            "namespace": "Route.Rentals"
+        },
+        {
+            "file": "app/routes/rentals/show.js",
+            "line": 8,
+            "description": "Returns the {{#crossLink \"Model.Rental\"}}{{/crossLink}} to show",
+            "itemtype": "method",
+            "name": "model",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "",
+                    "type": "Mixed"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Model.Rental"
+            },
+            "class": "Route.Rentals.Show",
+            "namespace": "Route.Rentals"
+        },
+        {
+            "file": "app/routes/index.js",
+            "line": 8,
+            "itemtype": "method",
+            "name": "beforeModel",
+            "class": "Route.Index",
+            "namespace": "Route"
+        },
+        {
+            "file": "app/services/maps.js",
+            "line": 11,
+            "itemtype": "method",
+            "name": "init",
+            "class": "Service.Maps",
+            "namespace": "Service"
+        },
+        {
+            "file": "app/services/maps.js",
+            "line": 23,
+            "description": "Fetches a map element",
+            "itemtype": "method",
+            "name": "getMapElement",
+            "params": [
+                {
+                    "name": "location",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Element"
+            },
+            "class": "Service.Maps",
+            "namespace": "Service"
+        },
+        {
+            "file": "app/services/maps.js",
+            "line": 41,
+            "description": "Creates a div element with *map* as class name",
+            "itemtype": "method",
+            "name": "createMapElement",
+            "return": {
+                "description": "",
+                "type": "Element"
+            },
+            "class": "Service.Maps",
+            "namespace": "Service"
+        },
+        {
+            "file": "app/utils/google-maps.js",
+            "line": 11,
+            "itemtype": "method",
+            "name": "init",
+            "class": "Util.GoogleMaps",
+            "namespace": "Util"
+        },
+        {
+            "file": "app/utils/google-maps.js",
+            "line": 18,
+            "description": "Creates a map with pinned location",
+            "itemtype": "method",
+            "name": "createMap",
+            "params": [
+                {
+                    "name": "element",
+                    "description": "Map element",
+                    "type": "Element"
+                },
+                {
+                    "name": "location",
+                    "description": "Name of location to pinpoint",
+                    "type": "String"
+                }
+            ],
+            "class": "Util.GoogleMaps",
+            "namespace": "Util"
+        },
+        {
+            "file": "app/utils/google-maps.js",
+            "line": 31,
+            "description": "Pins the location in the map element",
+            "itemtype": "method",
+            "name": "pinLocation",
+            "params": [
+                {
+                    "name": "location",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "map",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "class": "Util.GoogleMaps",
+            "namespace": "Util"
+        }
+    ],
+    "warnings": []
+}
