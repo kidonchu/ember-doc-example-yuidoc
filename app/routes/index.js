@@ -1,7 +1,14 @@
 import Ember from 'ember';
 
+/**
+ * @class Index
+ * @namespace Route
+ */
 export default Ember.Route.extend({
-  beforeModel() {
-    this.replaceWith('rentals');
-  }
+	/**
+	 * @method beforeModel
+	 */
+	beforeModel() {
+		this.replaceWith('rentals');
+	}
 });
